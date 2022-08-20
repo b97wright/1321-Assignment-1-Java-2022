@@ -25,16 +25,16 @@ public class Assignment1B {
         midExamG = midExamG * .2;
         finalExamG = finalExamG * .3;
 
-        System.out.println("Your weighted lab average is " + String.format("%.2f", labG));
-        System.out.println("Your weighted assignment average is " + String.format("%.2f", assignG));
-        System.out.println("Your weighted midterm exam average is " + String.format("%.2f", midExamG));
-        System.out.println("Your weighted final exam average is " + String.format("%.2f", finalExamG));
+        System.out.println("Your weighted lab average is " + String.format("%.2f", labG) + ".");
+        System.out.println("Your weighted assignment average is " + String.format("%.2f", assignG) + ".");
+        System.out.println("Your weighted midterm exam average is " + String.format("%.2f", midExamG) + ".");
+        System.out.println("Your weighted final exam average is " + String.format("%.2f", finalExamG) + ".");
         System.out.println(" ");
 
         finalG = labG + assignG + midExamG + finalExamG;
 
         System.out.println("Adding numbers...");
-        System.out.println("Your final grade in CSE 1321L is " + String.format("%.2f", finalG));
+        System.out.println("Your final grade in CSE 1321L is " + String.format("%.3f", finalG));
     
     }
 }
